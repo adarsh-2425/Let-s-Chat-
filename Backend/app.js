@@ -15,7 +15,7 @@ const users = require('./routes/users');
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/users', users);
-
+//
 //Static Folder
 app.use(express.static('./public'));
 
